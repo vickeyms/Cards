@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+}
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 100vh;
+  margin: 0;
+}
+h3{
+  margin: 10px 0;
+}
+h6{
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+p{
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+}
+.card-container{
+  background-color: rgb(85, 52, 98);
+  border-radius: 5px;
+  box-shadow: black;
+  color: white;
+  padding-top: 30px;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  align-items: center;
+  position: relative;
+
+  
+}
+.pro{
+  color: aliceblue;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px 7px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+}
+.online{
+  background-color: greenyellow;
+}
+.offline{
+  background-color: red;
+}
+.img{
+  border-radius: 50%;
+  border: 3px solid white;
+  padding: 7px;
+  width: 45%;
+
+}
+.buttons{
+  justify-content: center;
+  gap:10px;
+  display: flex;
+}
+button.primary{
+  background-color: blue;
+  color: aliceblue;
+  border: 1px solid blue;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+button.primary-out{
+  background-color:transparent;
+  color: aliceblue;
+  border: 1px solid blue;
+  border-radius: 3px;
+  font-weight: 500;
+  padding: 10px 25px;
+}
+.skills{
+  background-color: rgb(45, 11, 59);
+  text-align: left;
+  padding: 15px;
+  margin-top: 15px;
+}
+.skills ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.skills ul li{
+  border: 1px solid rgb(205, 190, 205);
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px 5px;
+  margin: 0px 7px 7px 0px;
+  font-size: 12px;
+}
